@@ -1,0 +1,81 @@
+{
+    "Bot": {
+        "clientId": "",
+        "guildId": "",
+        "botID": "",
+        "durum": "dev by alsia",
+        "durumTipi": "PLAYING"
+    },
+    "Yetkiler": {
+        "Staff": [""],
+        "yetkili": "",
+        "yetkiliRolId": "",
+        "ekipRoleId": "",
+        "dmYetkiliRolId": "",
+        "aktiflikCekilecekPerm": ""
+    },
+    "Kanallar": {
+        "sesKanalId": "",
+        "logKanalId": "",
+        "dmlogkanal": "",
+        "aktiflikBildirimKanalId": "",
+        "mesajLogKanalId": "",
+        "bilgiKanal": ""
+    },
+    "LOG": {
+        "ReklamLOG": "",
+        "welcomeLOG": "",
+        "ByByLOG": "",
+        "şüpheliLOG": "",
+        "KanalAcmaLOG": "",
+        "KanalSilmeLOG": "",
+        "KanalGuncellemeLOG": "",
+        "RolAcmaLOG": "",
+        "RolSilmeLOG": "",
+        "RolGuncellemeLOG": "",
+        "sesLOG": "",
+        "sesExtraLOG": "",
+        "PermVermeLOG": "",
+        "PermAlmaLOG": "",
+        "mesajLOG": "",
+        "banLOG": "",
+        "unbanLOG": "",
+        "isimLOG": "",
+        "KomutLOG": {
+            "SilmeLOG": ""
+        }
+    },
+    "Embed": {
+        "authorembed": "",
+        "SunucuAD": "",
+        "footerText": "Alsia Was Here",
+        "iconURL": ""
+    },
+    "Permler": {
+        "Giriş": ""
+    },
+    "Resimler": {
+        "welcomeURL": "",
+        "şüpheliURL": "",
+        "moderasyonURL": "",
+        "banner": ""
+    },
+    "Ticket": {
+        "parentCategory": "",
+        "ticketLog": "",
+        "ticketLog2": ""
+    },
+    "WebServer": {
+        "port": 3005,
+        "ip": "0.0.0.0",
+        "publicURL": "http://45.88.110.68:3005"
+    },
+    "Ayarlar": {
+        "aktiflikEveryoneDuyuru": true
+    },
+    "Renkler": {
+        "primary": "#0a0a0a",
+        "success": "#00ff00",
+        "error": "#ff0000"
+    }
+}
