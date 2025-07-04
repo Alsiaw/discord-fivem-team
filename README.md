@@ -375,7 +375,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 ## 📞 Destek ve İletişim
 
 - 🐛 **Bug Report:** [GitHub Issues](https://github.com/kullaniciadi/alsia-discord-bot/issues)
-- 💬 **Discord Destek:** [Destek Sunucusu](https://discord.gg/SUNUCU_LINKI)
+- 💬 **Discord Destek:** [Destek Sunucusu](https://discord.gg/mcqueen)
 - 📧 **E-mail:** destek@alsia.com
 
 ---
@@ -427,6 +427,6 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 ⭐ **Bu projeyi beğendiyseniz yıldız vermeyi unutmayın!**
 
 [![Discord](https://img.shields.io/badge/Discord-Join%20Server-7289da?style=for-the-badge&logo=discord)](https://discord.gg/mcqueen)
-[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Alsia333)
+[![GitHub](https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github)](https://github.com/Alsiaw)
 
 </div>
