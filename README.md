@@ -420,7 +420,7 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 **Alsia Discord Bot** kullandığınız için teşekkür ederiz!
 
-*Made with ❤️ by Alsia Development Team*
+*Made with ❤️ by Alsia*
 
 ---
 
