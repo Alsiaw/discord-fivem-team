@@ -416,9 +416,8 @@ Bu proje MIT lisansı altında lisanslanmıştır. Detaylar için [LICENSE](LICE
 
 <div align="center">
 
-### 💝 Teşekkürler
 
-**Alsia Discord Bot** kullandığınız için teşekkür ederiz!
+
 
 *Made with ❤️ by Alsia*
 
