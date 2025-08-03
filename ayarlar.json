@@ -1,32 +1,26 @@
 {
     "Bot": {
-        "clientId": "",
         "guildId": "",
         "botID": "",
-        "durum": "dev by alsia",
+        "durum": "adamı sikerler",
         "durumTipi": "PLAYING"
     },
     "Yetkiler": {
-        "Staff": [""],
-        "yetkili": "",
         "yetkiliRolId": "",
         "ekipRoleId": "",
-        "dmYetkiliRolId": "",
-        "aktiflikCekilecekPerm": ""
+        "Staff": [""]
     },
     "Kanallar": {
         "sesKanalId": "",
-        "logKanalId": "",
+        "otLogKanalId": "",
         "dmlogkanal": "",
         "aktiflikBildirimKanalId": "",
         "mesajLogKanalId": "",
         "bilgiKanal": ""
     },
     "LOG": {
-        "ReklamLOG": "",
         "welcomeLOG": "",
         "ByByLOG": "",
-        "şüpheliLOG": "",
         "KanalAcmaLOG": "",
         "KanalSilmeLOG": "",
         "KanalGuncellemeLOG": "",
@@ -56,9 +50,8 @@
     },
     "Resimler": {
         "welcomeURL": "",
-        "şüpheliURL": "",
         "moderasyonURL": "",
-        "banner": ""
+        "EtkinlikResimURL": ""
     },
     "Ticket": {
         "parentCategory": "",
@@ -68,7 +61,7 @@
     "WebServer": {
         "port": 3005,
         "ip": "0.0.0.0",
-        "publicURL": "http://45.88.110.68:3005"
+        "publicURL": "http://vdsip:3005"
     },
     "Ayarlar": {
         "aktiflikEveryoneDuyuru": true
@@ -77,5 +70,14 @@
         "primary": "#0a0a0a",
         "success": "#00ff00",
         "error": "#ff0000"
+    },
+    "FiveM": {
+        "serverId": "",
+        "serverName": " ",
+        "embedColor": "#490404",
+        "avatarUrl": "https://cdn.discordapp.com/icons/placeholder/avatar.png",
+        "playersPerPage": 10,
+        "maxResults": 50,
+        "apiUrl": "https://servers-frontend.fivem.net/api/servers/single/"
     }
 }
