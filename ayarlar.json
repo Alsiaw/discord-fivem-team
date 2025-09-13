@@ -16,7 +16,8 @@
         "dmlogkanal": "",
         "aktiflikBildirimKanalId": "",
         "mesajLogKanalId": "",
-        "bilgiKanal": ""
+        "bilgiKanal": "",
+        "logKanalId": ""
     },
     "LOG": {
         "welcomeLOG": "",
@@ -59,9 +60,9 @@
         "ticketLog2": ""
     },
     "WebServer": {
-        "port": 3005,
+        "port": 3000,
         "ip": "0.0.0.0",
-        "publicURL": "http://vdsip:3005"
+        "publicURL": "http://vds:3000"
     },
     "Ayarlar": {
         "aktiflikEveryoneDuyuru": true
@@ -72,12 +73,12 @@
         "error": "#ff0000"
     },
     "FiveM": {
-        "serverId": "",
-        "serverName": " ",
+        "serverId": "48o74q",
+        "serverName": "",
         "embedColor": "#490404",
         "avatarUrl": "https://cdn.discordapp.com/icons/placeholder/avatar.png",
         "playersPerPage": 10,
         "maxResults": 50,
-        "apiUrl": "https://servers-frontend.fivem.net/api/servers/single/"
+        "apiUrl": "https://servers-frontend.fivem.net/api/servers/single/48o74q"
     }
 }

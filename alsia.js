@@ -116,9 +116,9 @@ client.once('ready', async () => {
                      ActivityType.Playing;
     
     const statusList = [
-        'ᴀʟꜱɪᴀ ❤️ ꜱʜᴀɴᴋ',
-        'ᴀʟꜱɪᴀ 💜 ꜱʜᴀɴᴋ', 
-        'ᴀʟꜱɪᴀ 💙 ꜱʜᴀɴᴋ'
+        'ᴀʟꜱɪᴀ ❤️ ',
+        'ᴀʟꜱɪᴀ 💜 ', 
+        'ᴀʟꜱɪᴀ 💙 '
     ];
 
     let currentIndex = 0;
@@ -352,15 +352,20 @@ client.on('interactionCreate', async interaction => {
                 return;
             }
 
+            // Aktiflik sistemi butonları - sadece collector süresi dolmuşsa handle et
             if (interaction.customId === 'katil' || interaction.customId === 'ayril') {
+                // Eğer mesaj hiç değiştirilmemişse veya collector aktifse, return et
                 const messageEmbeds = interaction.message?.embeds;
                 if (messageEmbeds && messageEmbeds.length > 0) {
                     const embedDesc = messageEmbeds[0].description;
+                    // Eğer embed'de "Aktiflik bitti" yazısı yoksa, collector hala aktif demektir
                     if (!embedDesc || !embedDesc.includes('Aktiflik bitti')) {
+                        // Collector hala aktif, bu interaction'ı handle etme
                         return;
                     }
                 }
                 
+                // Collector süresi dolmuş, expired mesajı göster
                 const expiredEmbed = new EmbedBuilder()
                     .setColor("#490404")
                     .setTimestamp()
@@ -597,7 +602,8 @@ client.on('interactionCreate', async interaction => {
             }
 
             if (interaction.customId === 'katilim_indir') {
-                return;
+                // Aktiflik testi bitiminde katılım listesi indirme
+                return; // Bu buton aktiflik-baslat.js collector tarafından handle ediliyor
             }
 
             if (interaction.customId.startsWith('katilim_indir_')) {
